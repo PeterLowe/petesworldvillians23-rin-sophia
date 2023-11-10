@@ -105,7 +105,7 @@ int main()
 		}
 	}
 
-	if (letter == 'd' || letter == 'D')
+	if (letter == 'd' || letter == 'D') //written by Rin
 	{
 		if (region == 1)
 		{
@@ -126,6 +126,30 @@ int main()
 		if (region == 5)
 		{
 			std::cout << "Dominica, Dominican Republic" << std::endl;
+		}
+	}
+
+	if (letter == 'e' || letter == 'E') //written by Rin
+	{
+		if (region == 1)
+		{
+			std::cout << "Ecuador, El Salvador" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Estonia" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Egypt, Equatorial Guinea, Eritrea, Ethiopia" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "East Timor (Timor-Leste)" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "There is No Country in the Rest of the World Starting with E" << std::endl;
 		}
 	}
 
