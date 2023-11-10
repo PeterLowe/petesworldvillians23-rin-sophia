@@ -178,6 +178,30 @@ int main()
 		}
 	}
 
+	if (letter == 'g' || letter == 'G') //written by Rin
+	{
+		if (region == 1)
+		{
+			std::cout << "Greenland, Guatemala, Guyana" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Germany, Gibraltar, Greece" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Gambia, Ghana, Guinea, Guinea-Bissau" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "There is No Country in Asia Starting with G" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Georgia, Grenada, Guadeloupe, Guam" << std::endl;
+		}
+	}
+
 	if (letter == 'u' || letter == 'U') //written by Sophia
 	{
 		if (region == 1)
