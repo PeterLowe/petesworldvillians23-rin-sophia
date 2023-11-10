@@ -105,6 +105,30 @@ int main()
 		}
 	}
 
+	if (letter == 'd' || letter == 'D')
+	{
+		if (region == 1)
+		{
+			std::cout << "There is No Country in America Starting with D" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Denmark" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Djibouti" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "There is No Country in Asia Starting with D" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Dominica, Dominican Republic" << std::endl;
+		}
+	}
+
 	if (letter == 'x' || letter == 'X') //written by Sophia
 	{
 		if (region == 1)
