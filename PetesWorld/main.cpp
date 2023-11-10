@@ -4,7 +4,7 @@
 // Rin Larkin
 // Sophia Stanley
 // estimated time 120 minutes
-// actual time ??
+// actual time 90 mins
 // version 1.0
 
 
@@ -22,16 +22,17 @@ int main()
 		std::cout << "You need to select a number between 1 and 5" << std::endl;
 		return 0;
 	}
-	std::cout << "Pick a letter from A to C or U to Z" << std::endl; // change this line each iteration
+
+	std::cout << "Pick a letter from A to F or U to Z" << std::endl; // change this line each iteration
 	std::cin >> letter;
 
 	if (letter < 'A' || letter > 'Z') // not a capital letter
-	{ 
+	{
 		if (letter < 'a' || letter > 'z') // not a lower case letter
 		{
 			std::cout << "You need to select a letter from A to Z" << std::endl;
-			return 0; 
-		}		
+			return 0;
+		}
 	}
 	if (letter == 'a' || letter == 'A') // written by Pete
 	{
@@ -55,7 +56,7 @@ int main()
 		{
 			std::cout << "Australia, Antarctica, Aruba, Anguilla Leeward Islands, Antigua and Barbuda, American Samoa" << std::endl;
 		}
-	}	
+	}
 
 	if (letter == 'b' || letter == 'B') //written by Rin
 	{
@@ -152,6 +153,7 @@ int main()
 			std::cout << "There is No Country in the Rest of the World Starting with E" << std::endl;
 		}
 	}
+<<<<<<< HEAD
 	if (letter == 't' || letter == 'U')
 	{
 		if (region == 1)
@@ -175,6 +177,33 @@ int main()
 			std::cout << "Tokelau, Tuvalu" << std::endl;
 		}
 	}
+=======
+
+	if (letter == 'f' || letter == 'F') //written by Rin
+	{
+		if (region == 1)
+		{
+			std::cout << "Falkland Islands, French Guiana" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Faroe Islands, Finland, France" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "There is No Country in Africa Starting with F" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "French Southern Territories" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Fiji, French Polynesia" << std::endl;
+		}
+	}
+
+>>>>>>> fdc549cc02147e5848c88c4063543da3176b6efa
 	if (letter == 'u' || letter == 'U') //written by Sophia
 	{
 		if (region == 1)
@@ -197,8 +226,8 @@ int main()
 		{
 			std::cout << "There are no Us in the rest of the world" << std::endl;
 		}
-
 	}
+
 	if (letter == 'v' || letter == 'V') //written by Sophia
 	{
 		if (region == 1)
@@ -222,6 +251,7 @@ int main()
 			std::cout << "Vanuatu" << std::endl;
 		}
 	}
+
 	if (letter == 'w' || letter == 'W') //written by Sophia
 	{
 		if (region == 1)
