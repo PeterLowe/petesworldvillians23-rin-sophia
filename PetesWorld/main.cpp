@@ -152,6 +152,29 @@ int main()
 			std::cout << "There is No Country in the Rest of the World Starting with E" << std::endl;
 		}
 	}
+	if (letter == 't' || letter == 'U')
+	{
+		if (region == 1)
+		{
+			std::cout << "Trinidad and Tobago, Turks and Caicos Islands" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Turkey" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Tanzania; officially the United Republic of Tanzania, Togo, Tunisia" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Taiwan, Tajikistan, Thailand, Tibet, Timor-Leste (East Timor), Turkmenistan" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Tokelau, Tuvalu" << std::endl;
+		}
+	}
 	if (letter == 'u' || letter == 'U') //written by Sophia
 	{
 		if (region == 1)
