@@ -4,7 +4,7 @@
 // Rin Larkin
 // Sophia Stanley
 // estimated time 120 minutes
-// actual time 90 mins
+// actual time 120 mins
 // version 1.0
 
 
@@ -23,7 +23,7 @@ int main()
 		return 0;
 	}
 
-	std::cout << "Pick a letter from A to G or U to Z" << std::endl; // change this line each iteration
+	std::cout << "Pick a letter from A to G or T to Z" << std::endl; // change this line each iteration
 	std::cin >> letter;
 
 	if (letter < 'A' || letter > 'Z') // not a capital letter
@@ -199,6 +199,30 @@ int main()
 		if (region == 5)
 		{
 			std::cout << "Georgia, Grenada, Guadeloupe, Guam" << std::endl;
+		}
+	}
+
+	if (letter == 't' || letter == 'T')
+	{
+		if (region == 1)
+		{
+			std::cout << "Trinidad and Tobago, Turks and Caicos Islands" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Turkey" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Tanzania; officially the United Republic of Tanzania, Togo, Tunisia" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Taiwan, Tajikistan, Thailand, Tibet, Timor-Leste (East Timor), Turkmenistan" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Tokelau, Tuvalu" << std::endl;
 		}
 	}
 
