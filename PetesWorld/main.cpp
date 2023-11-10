@@ -4,7 +4,7 @@
 // Rin Larkin
 // Sophia Stanley
 // estimated time 120 minutes
-// actual time ??
+// actual time 90 mins
 // version 1.0
 
 
@@ -22,20 +22,17 @@ int main()
 		std::cout << "You need to select a number between 1 and 5" << std::endl;
 		return 0;
 	}
-<<<<<<< HEAD
-	std::cout << "Pick a letter from A to F or V to Z" << std::endl; // change this line each iteration
-=======
-	std::cout << "Pick a letter from A to C or U to Z" << std::endl; // change this line each iteration
->>>>>>> bd64c6be7a45d8025b10e4a9cc00b64e91461ddf
+
+	std::cout << "Pick a letter from A to F or U to Z" << std::endl; // change this line each iteration
 	std::cin >> letter;
 
 	if (letter < 'A' || letter > 'Z') // not a capital letter
-	{ 
+	{
 		if (letter < 'a' || letter > 'z') // not a lower case letter
 		{
 			std::cout << "You need to select a letter from A to Z" << std::endl;
-			return 0; 
-		}		
+			return 0;
+		}
 	}
 	if (letter == 'a' || letter == 'A') // written by Pete
 	{
@@ -59,7 +56,7 @@ int main()
 		{
 			std::cout << "Australia, Antarctica, Aruba, Anguilla Leeward Islands, Antigua and Barbuda, American Samoa" << std::endl;
 		}
-	}	
+	}
 
 	if (letter == 'b' || letter == 'B') //written by Rin
 	{
@@ -156,31 +153,8 @@ int main()
 			std::cout << "There is No Country in the Rest of the World Starting with E" << std::endl;
 		}
 	}
-	if (letter == 'u' || letter == 'U') //written by Sophia
-	{
-		if (region == 1)
-		{
-			std::cout << "United States, Uruguay" << std::endl;
-		}
-		if (region == 2)
-		{
-			std::cout << "Ukraine, United Kingdom" << std::endl;
-		}
-		if (region == 3)
-		{
-			std::cout << "Uganda" << std::endl;
-		}
-		if (region == 4)
-		{
-			std::cout << "United Arab Emirates, Uzbekistan" << std::endl;
-		}
-		if (region == 5)
-		{
-			std::cout << "There are no Us in the rest of the world" << std::endl;
-		}
 
-<<<<<<< HEAD
-	if (letter == 'f' || letter == 'F')
+	if (letter == 'f' || letter == 'F') //written by Rin
 	{
 		if (region == 1)
 		{
@@ -204,11 +178,31 @@ int main()
 		}
 	}
 
-	if (letter == 'v' || letter == 'V')
-=======
+	if (letter == 'u' || letter == 'U') //written by Sophia
+	{
+		if (region == 1)
+		{
+			std::cout << "United States, Uruguay" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Ukraine, United Kingdom" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Uganda" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "United Arab Emirates, Uzbekistan" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "There are no Us in the rest of the world" << std::endl;
+		}
 	}
+
 	if (letter == 'v' || letter == 'V') //written by Sophia
->>>>>>> bd64c6be7a45d8025b10e4a9cc00b64e91461ddf
 	{
 		if (region == 1)
 		{
@@ -231,6 +225,7 @@ int main()
 			std::cout << "Vanuatu" << std::endl;
 		}
 	}
+
 	if (letter == 'w' || letter == 'W') //written by Sophia
 	{
 		if (region == 1)
